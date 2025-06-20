@@ -6,7 +6,7 @@ function WeatherApp() {
   const [city, setCity] = useState("Chennai");
 
   return (
-    <div>
+    <div className="container">
       <h1>Weather App</h1>
       <input
         type="text"
